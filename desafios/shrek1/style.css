@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    margin: auto;
+    background-color: #A5CC6B;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #04471C, #A5CC6B);
+    padding: 2px 2px 8px 2px;
+    
+}
+h1{
+    font-family: "Roboto condensed";
+    text-align: center;
+    color: white;
+}
+header>h2{
+    font-family: "Roboto condensed";
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+nav{ 
+    text-align: center;
+    background-color: #43291F;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+nav>a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px 0px 30px;
+
+}
+
+a:hover{
+    background-color: #0ee25850;
+    border-radius: 1px;    
+}
+
+a:active{
+    color: #A5CC6B;
+}
+section{
+    background-color: white;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.397);
+    border-radius: 10px 10px 0px 0px;
+    max-width: 1000px;
+}
+article>h1{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+    
+}
+article>p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+p>span{
+    font-weight: bold;
+}
+article>h2{
+    font-family: "Roboto condensed";
+    font-weight: 500;
+    background-image:linear-gradient(to right,#43291F, white);
+    color: white;
+    
+}
+picture>img{
+    width: 100%;
+}
+footer{
+    background-color: #04471C;
+    text-align: center;
+    color: white;
+    font-family: "Roboto condensed";
+    padding: 5px 0px 20px 0px;
+    margin: auto;
+}
