@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(92, 89, 89);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+h1 {
+    color: rgb(255, 255, 250);
+    text-decoration-line: underline;
+}

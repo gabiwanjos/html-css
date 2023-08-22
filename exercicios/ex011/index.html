@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Temos agora imagens que vão se adaptar de tamanho de acordo com o dispositivo e tamanho de tela.
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/shrek-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/shrek-m.png" type="image/png">
+        <img src="imagens/shrek-g.png" alt="imagem grande">
+    </picture>
+    <h2>Agora vamos ouvir uma musiquinha com o shrek</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="media/musiquinha.mp3" type="audio/mpeg">
+        <p>Se não rodar seu navegador é shrekfobico</p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to right,#B7D5D4,#488286);
+    font:normal 16px Arial;
+    text-align:justify;
+    padding: 10px;
+    margin: auto;
+    }
+
+h1#principal{
+    text-align: center;
+    color: #373E40;
+    background-color: #B7D5D4;
+}
+
+.h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 3px #488286;
+    color:#77878B ;
+    background-color: #B7D5D4;
+}
+p{
+    text-indent: 30px;
+
+}
+h2.meio{
+    color: #305252;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #B7D5D4;
+}
+span{
+    background-color: yellow;
+    font-weight: bold;
+}

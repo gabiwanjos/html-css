@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        a:visited{
+            color:darkslateblue ;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(158, 51, 219);
+        }
+        
+        .hihi:hover::after{
+            content: " 😅";
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista com links</h1>
+    <ul>
+        <li class="hihi"><a href="https://www.instagram.com/gabiquifez/" target="_blank">Instagram</a></li>
+        <li><a href="https://br.pinterest.com/dos4njos/" target="_blank">Pinterest</a></li>
+        <li><a href="https://www.youtube.com/channel/UCUH39N1Rg9G9WOYRQbFz6Vg" target="_blank">Youtube</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    </ul>
+</body>
+</html>
