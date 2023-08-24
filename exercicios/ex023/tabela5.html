@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        th, td{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .filmes{
+            background-color: rgb(238, 170, 170);
+        }
+        .naovi{
+            background-color: rgb(181, 233, 129);
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="filmes">
+            <col>
+            <col>
+        </colgroup>
+        <caption>
+            Filmes Studio Ghibli
+        </caption>
+        <tr>
+            <th>Filmes</th>
+            <th class="filmes">Assistido</th>
+            <th class="filmes">Não Assistido</th>
+        </tr>
+        <tr>
+            <td>Ponyo</td>
+            <td>Sim</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>A viagem de Chihiro</td>
+            <td>Sim</td>
+            <td>-</td>
+        </tr>
+        <tr class="naovi">
+            <td >Cemitério de vagalumes</td>
+            <td>-</td>
+            <td>Não</td>
+        </tr>
+        <tr>
+            <td>When Marnie was there</td>
+            <td>Sim</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Castelo Animado</td>
+            <td>Sim</td>
+            <td>-</td>
+        </tr>
+    </table>
+</body>
+</html>
