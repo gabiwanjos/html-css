@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula y Formula</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="isatisfacao">Satisfação</label>
+            <input type="range" name="Satisfação" id="isatisfacao" required value="5" min="0" max="10" oninput="valor.innerHTML = Number (isatisfacao.value)">
+            <output id="valor">5</output>
+        </p>
+        <p>
+            <label for="estado">Estados</label>
+            <select name="estados" id="estado">
+                <option value="">Escolha</option>
+                <optgroup label="Sentimentos">
+                    <option value="">Feliz</option>
+                    <option value="">Triste</option>
+                    <option value="">Estressado(a)</option>
+                    <option value="">Ansioso(a)</option>
+                    <option value="">Animado (a)</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iestados">Estados</label>
+            <input type="text" name="estado" id="iestados" list="list">
+            <datalist id="list">
+                <option value="">Liquido</option>
+                <option value="">Gasoso</option>
+                <option value="">Sólido</option>
+            </datalist>
+        </p>
+    </form>
+</body>
+</html>
